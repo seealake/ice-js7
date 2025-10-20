@@ -11,6 +11,6 @@ const studentCountByStanding = {
 // print the highest number
 // use .sort() or .toSorted()
 // You do NOT need to print which kind of student it goes with
-const counts = Object.values(studentCountByStanding).toSorted((a, b) => b - a);
-console.log(counts[0]);
-console.log("Hello world");
+const countsArray = Object.values(studentCountByStanding);
+const sortedCounts = countsArray.toSorted((a, b) => b - a);
+console.log(sortedCounts[0]);
