@@ -52,17 +52,7 @@ const counts = {
 }
 */
 for (const student of students) {
-  if (student.standing === "freshman") {
-    counts.freshman += 1;
-  } else if (student.standing === "sophomore") {
-    counts.sophomore += 1;
-  } else if (student.standing === "junior") {
-    counts.junior += 1;
-  } else if (student.standing === "senior") {
-    counts.senior += 1;
-  } else if (student.standing === "other") {
-    counts.other += 1;
-  }
+  counts[student.standing] += 1;
 }
 
 console.log(counts);
