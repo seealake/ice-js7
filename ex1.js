@@ -51,5 +51,18 @@ const counts = {
   other: 2
 }
 */
+for (const student of students) {
+  if (student.standing === "freshman") {
+    counts.freshman += 1;
+  } else if (student.standing === "sophomore") {
+    counts.sophomore += 1;
+  } else if (student.standing === "junior") {
+    counts.junior += 1;
+  } else if (student.standing === "senior") {
+    counts.senior += 1;
+  } else if (student.standing === "other") {
+    counts.other += 1;
+  }
+}
 
 console.log(counts);
