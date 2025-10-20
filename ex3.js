@@ -8,5 +8,8 @@ const studentCountByStanding = {
 
 // your code here
 
-// print the highest number using .sort() or .toSorted()
+// print the highest number
+// use .sort() or .toSorted()
 // You do NOT need to print which kind of student it goes with
+
+console.log("Hello world");
